@@ -1,0 +1,101 @@
+@import '../../../assets/main.scss';
+
+.parent-form{
+  //create mixin for both below
+  &__next-button{
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+    width: 100px;
+    height: 30px;
+    border: 0;
+    background-color: $darkGrey;
+    color: $white;
+    transition: 0.2s ease;
+    cursor: pointer;
+
+    &:hover{
+      transform: scale(1.1);
+      transition: 0.2s ease;
+    }
+  }
+
+  &__prev-button{
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+    width: 100px;
+    height: 30px;
+    border: 0;
+    background-color: $darkGrey;
+    color: $white;
+    transition: 0.2s ease;
+    cursor: pointer;
+
+    &:hover{
+      transform: scale(1.1);
+      transition: 0.2s ease;
+    }
+  }
+
+  &__submit-button{
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+    width: 100px;
+    height: 30px;
+    border: 0;
+    background-color: $darkGrey;
+    color: $white;
+    transition: 0.2s ease;
+    cursor: pointer;
+
+    &:hover{
+      transform: scale(1.1);
+      transition: 0.2s ease;
+    }
+  }
+
+  &__new-order-button{
+    position: absolute;
+    bottom: 5%;
+    left: 41%;
+    width: 100px;
+    height: 30px;
+    border: 0;
+    background-color: $darkGrey;
+    color: $white;
+    transition: 0.2s ease;
+    cursor: pointer;
+
+    &:hover{
+      transform: scale(1.1);
+      transition: 0.2s ease;
+    }
+  }
+}
+
+.form-step{
+  &__input{
+    width: 80%;
+    font-size: $mediumFont;
+    border: 0;
+    outline: none;
+    padding: 5px;
+  }
+
+  &__select{
+    padding: 5px 10px;
+    width: 200px;
+  }
+
+  &__title{
+    margin: 0 0 10px 0;
+    font-weight: $lightWeight;
+  }
+}
+
+.success-message{
+  color: $green;
+  text-align: center;
+}

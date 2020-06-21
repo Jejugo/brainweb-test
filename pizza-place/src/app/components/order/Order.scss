@@ -1,0 +1,26 @@
+@import '../../../assets/main.scss';
+
+.order{
+  margin: 5% 0 0 0;
+  padding: 20px;
+  height: 30vh;
+  &__title{
+    font-size: $bigFont;
+    font-weight: $lightWeight;
+  }
+
+  &__wrapper{
+    position: relative;
+    background-color: $grey;
+    width: 50%;
+  }
+}
+
+.form-container{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.title-wrapper{
+  margin: 20px;
+}
