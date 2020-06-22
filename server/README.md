@@ -1,6 +1,6 @@
 # server
 
-This microservice performs video streaming to the frontend, it is possible to define the quality of the video based on the parameter informed in the request.
+This service performs back end support for brainweb front-end application 
 
 # how to run locally
 
