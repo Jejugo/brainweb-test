@@ -1,4 +1,4 @@
-# ms-customer
+# server
 
 This microservice performs video streaming to the frontend, it is possible to define the quality of the video based on the parameter informed in the request.
 
